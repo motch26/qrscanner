@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "qrscanner",
-    "slug": "qrscanner",
+    "name": "chmsu_gate_path",
+    "slug": "chmsu_gate_path",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,9 +14,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*", "assets/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -24,7 +22,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+
+      "package": "com.chmsu.gatepath"
     },
     "web": {
       "favicon": "./assets/favicon.png"
